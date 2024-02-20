@@ -11,13 +11,13 @@ const {
 } = require('graphql')
 const app = express()
 //  const router = express.Router();
-//  app.get('/',(res,req) =>{
-//   res.json(
-//     {
-//       "hello" : "hoii"
-//     }
-//   )
-//  })
+ app.get('/test',(res,req) =>{
+  res.json(
+    {
+      "hello" : "hoii"
+    }
+  )
+ })
 // app.use('/.netlify/functions/api',router);
 
 const authors = [
